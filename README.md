@@ -1,7 +1,8 @@
 # Regression_Predict__sales
 
-##FlowChart
+## FlowChart
 
+```mermaid
 flowchart TD
     st[Start: Load Datasets]
     op[ETL_predict_future_sales]
@@ -11,3 +12,4 @@ flowchart TD
     st --> op
     op --> op1
     op --> op2
+
