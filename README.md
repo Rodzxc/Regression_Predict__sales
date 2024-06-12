@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     st([XGBoost+Optuna])
     op1[Codificación Target/MeanEncoder]
@@ -14,3 +15,4 @@ flowchart LR
     op6[MetaModelo: HistGradientBoostingRegressor+Optuna]
 
     st3 --> op4 & op5 & op6
+```
