@@ -6,7 +6,7 @@ El conjunto de archivos proviene de un desafío llamado **Predict Future Sales**
 Teniendo en cuenta las ventas históricas, se intenta predecir las ventas de un conjunto de tiendas y productos (shops - items).
 Como parte de los requisitos de la competencia, el desempeño es determinado mediante  el error cuadrático medio (RMSE) y los valores objetivo verdaderos se recortan en el rango [0,20].
 
-Se utilizan varias alternativas y recursos para desarrollar este proyecto con el fín de mejorar la práctica ampliar el conocimiento.
+Se utilizan varias alternativas y recursos para desarrollar este proyecto con el fín de mejorar la práctica y ampliar el conocimiento.
 
 ## Objetivo
 
@@ -46,7 +46,7 @@ flowchart LR
  HistGradientBoostingRegressor + XGBRegressor + CatBoostRegressor
   - Promedios Ponderados, ponderaciones optimizadas con Optuna.
   - VotingRegressor con las ponderaciones optimizadas.
-  - MetaModelo GradientBoostingRegressor , con las ponderaciones optimizadas.
+  - MetaModelo GradientBoostingRegressor, con las ponderaciones optimizadas.
 
  Utilizar las ponderaciones optimizadas en todos los ensambles dan mejores resultados.
 
@@ -81,5 +81,7 @@ flowchart TD
 ```
 ## Conclusión
 
-De todas las alternativas exploradas, el ensamble de Promedios Ponderados se desempeña mejor que el resto, se pueden seguir mejorando todos los modelos o proponer nuevos, como el dataset es de indole competitiva, en el siguiente link encontrará otras alternativas propuestas por los participantes:
+De todas las alternativas exploradas, el ensamble de Promedios Ponderados se desempeña mejor que el resto, se pueden seguir mejorando todos los modelos o proponer nuevos.
+
+Como el dataset es de indole competitiva, en el siguiente link encontrará otras alternativas propuestas por los participantes:
 https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/code
