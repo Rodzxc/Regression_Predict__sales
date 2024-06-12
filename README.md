@@ -1,15 +1,19 @@
 # Regression_Predict__sales
-
-## FlowChart
-
 ```mermaid
-flowchart TD
-    st[Start: Load Datasets]
-    op[ETL_predict_future_sales]
-    op1[XGBoost+Optuna_predict]
-    op2[LazyPredict_EnsembleModels_predict]
+flowchart LR
+    op[XGBoost+Optuna]
+    op1[Codificación Target/MeanEncoder]
+    op2[Codificación Embedding]
 
-    st --> op
     op --> op1
     op --> op2
 
+    op3[GradientBoostingRegressor, XGBRegressor, CatBoostRegressor]
+    op4[Promedios Ponderados+Optuna]
+    op5[VotingRegressor +Optunas]
+    op6[MetaModelo: HistGradientBoostingRegressor+Optuna]
+
+    op3 --> op4
+    op3 --> op5
+    op3 --> op6
+```
