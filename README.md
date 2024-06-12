@@ -1,10 +1,1 @@
-## FlowChart
-
-```mermaid
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
+[![](https://mermaid.ink/img/pako:eNp1kcFKw0AQhl9l2YNUTBG17SEHD9ZSDwZLFRGSHsbsJFlIdsLuBJHSp_IRfDE3SdNixT0sOzPfzPw_u5UpKZShzEr6SAuwLB7XiRH-OB7Fb8s7IscXTzU3BjbnfYXqq3hOSmc6hVR_fxnxAjZHvowQzMK0E-1mQK9P0EX1jkppk3tiWCTG49t2qjhrG9r8ULkZxUsLSqPhTonvW2Nu0TmygegpL_JPbg49fygctU_ilaUKlSYnVmS8VlDkBosDNY1f6dc2cUrM4ggZIm-2pFA8aMf_Kj22HnztLU86y9PuniVGBrJCW4FW_ku2LZxILrDCRIb-qTCDpuREJmbnUWiYnj9NKkO2DQbSUpMXMsygdD5qagWM9xpyC9U-u_sBtfupcw?type=png)](https://mermaid.live/edit#pako:eNp1kcFKw0AQhl9l2YNUTBG17SEHD9ZSDwZLFRGSHsbsJFlIdsLuBJHSp_IRfDE3SdNixT0sOzPfzPw_u5UpKZShzEr6SAuwLB7XiRH-OB7Fb8s7IscXTzU3BjbnfYXqq3hOSmc6hVR_fxnxAjZHvowQzMK0E-1mQK9P0EX1jkppk3tiWCTG49t2qjhrG9r8ULkZxUsLSqPhTonvW2Nu0TmygegpL_JPbg49fygctU_ilaUKlSYnVmS8VlDkBosDNY1f6dc2cUrM4ggZIm-2pFA8aMf_Kj22HnztLU86y9PuniVGBrJCW4FW_ku2LZxILrDCRIb-qTCDpuREJmbnUWiYnj9NKkO2DQbSUpMXMsygdD5qagWM9xpyC9U-u_sBtfupcw)
